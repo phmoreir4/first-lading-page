@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background: linear-gradient(68.16deg, #e7e0e0 16.62%, #bebebe 86.34%);
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 15px;
+}
+
+.cabecalho-imagem {
+  height: 79px;
+}
+
+.cabecalho-nav {
+  display: flex;
+  gap: 70px;
+}
+
+.cabecalho-nav-item {
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.conteudo {
+  border-top: 0.8px solid black;
+  margin-bottom: 40px;
+}
+
+.conteudo-principal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.conteudo-principal-escrita {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.conteudo-principal-escrita-titulo {
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.conteudo-principal-escrita-subtitulo {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.conteudo-principal-botao {
+  margin-top: 30px;
+  height: 70px;
+  width: 180px;
+  border-radius: 15px;
+  border: none;
+  background-color: #000;
+  color: antiquewhite;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.5);
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.conteudo-principal-botao:hover {
+  cursor: pointer;
+  background-color: #4d4c4c;
+  transition: all 0.3s;
+  transform: scale(1.1);
+  display: block;
+}
+
+.conteudo-principal-imagem {
+  height: 550px;
+}
+
+.conteudo-secundario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.conteudo-secundario-titulo {
+  border-top: 0.8px solid black;
+  padding-top: 40px;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.conteudo-secundario-subtitulo {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.rodape {
+  border-top: 0.8px solid black;
+  padding: 40px;
+}
+
+.rodape-escrito {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.rodape-escrito-sub {
+  font-size: 40px;
+  font-weight: 600;
+}
